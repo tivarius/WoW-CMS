@@ -1,0 +1,14 @@
+.htaccess
+app/.htaccess
+app/webroot/.htaccess
+
+# config
+app/config/bootstrap.php
+app/config/core.php
+app/config/database.php
+
+# cache
+app/tmp/**/*
+app/webroot/tmp/*
+
+!empty
