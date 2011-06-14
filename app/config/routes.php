@@ -1,4 +1,5 @@
 <?php
-	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
+	Router::connect('/', array('controller' => 'home', 'action' => 'index'));
+#  Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
 	// Fallback
-    Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
+#   Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
